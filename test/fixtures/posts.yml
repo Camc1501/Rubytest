@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  Post_id: 1
+  Description: MyString
+  date: 2018-08-11 21:19:20
+
+two:
+  Post_id: 1
+  Description: MyString
+  date: 2018-08-11 21:19:20
