@@ -4,7 +4,7 @@ class CreateRelations < ActiveRecord::Migration[5.2]
       t.boolean :allowed_name
       t.boolean :allowed_surname
       t.boolean :allowed_email
-      t.boolena :allowed_telephone
+      t.boolean :allowed_telephone
       t.boolean :allowed_date
 
       t.timestamps
