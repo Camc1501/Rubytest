@@ -61,6 +61,19 @@ class UsersController < ApplicationController
     end
   end
 
+
+  #POST /users/hiden
+
+  def hiden
+    response = {code: 400, Message:"you can't do that"}
+    
+    if params[:id_user].present? && params[:name].present? && params[:surname].present? && params[:date].present?
+      response = {code: 200, Message: "User Created"}
+    end 
+
+  render :json => response
+  end
+
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_user
